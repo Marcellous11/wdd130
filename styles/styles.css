@@ -1,12 +1,41 @@
+ 
+
+
  nav{
-    background-color:darkblue;
-    padding:10px;
+   background-color:#AF373F;
+   width:100%;
+   margin:5px;
+   max-width:1000px;
+   min-width:500px;
+   border:1px solid rgb(0 0 0 / 0.2);
+   padding:0;
+   color:white;
+   
+
  }
 
  nav a{
     color:white;
     display:block;
     padding:20px;
+    
+ }
+
+ main{
+   width:100%;
+   margin:5px;
+   height:20em;
+   max-width:1000px;
+   min-width:500px;
+   border:1px solid rgb(0 0 0 / 0.2);
+   padding:0;
+   background-color:white;
+   color:black;
+ }
+ main p {
+   margin-left: 1em;
+   width: 60%;
+   margin-left: 15em;
  }
 
  h1 ,h1 a {
@@ -17,11 +46,55 @@
  img{
     width:150px;
     height:auto;
-    border:1px soild black;
+    margin-left:1em ;
     padding:2px;
     box-shadow: 0 0 30px gray;
+    float: left;
  }
 
  p{
-    padding:10px
+    padding:0;
+    
+ }
+
+ aside{
+   width:100%;
+   margin:5px;
+   height:20em;
+   max-width:1000px;
+   min-width:500px;
+   border:1px solid rgb(0 0 0 / 0.2);
+   padding:0;
+   background-color:#0F5189;
+   color:white;
+ }
+ aside h2{
+   margin:1em ;
+   display:inline-block;
+   
+ }
+ aside p{
+   padding-top:15px;
+   text-align:center;
+   min-width:2em;
+ }
+
+ aside img{
+   width:200px;
+   height:auto;
+   display:inline-block;
+   float:right;
+   margin: 3em 5em;
+
+ }
+
+ main img{
+   width:150px;
+   height:auto;
+ }
+
+ footer{
+   margin-top:10px;
+   border-top: 1px dashed black;
+   text-align:center;
  }
