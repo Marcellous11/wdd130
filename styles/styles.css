@@ -1,5 +1,7 @@
- 
-
+:root{
+  --color: white;
+  --height: auto;
+} 
 
  nav{
    background-color:#AF373F;
@@ -9,16 +11,13 @@
    min-width:500px;
    border:1px solid rgb(0 0 0 / 0.2);
    padding:0;
-   color:white;
-   
-
+   color:var(--color);
  }
 
  nav a{
-    color:white;
+    color:var(--color);
     display:block;
     padding:20px;
-    
  }
 
  main{
@@ -32,6 +31,7 @@
    background-color:white;
    color:black;
  }
+
  main p {
    margin-left: 1em;
    width: 60%;
@@ -45,7 +45,7 @@
 
  main img{
     width:150px;
-    height:auto;
+    height:var(--height);
     margin-left:1em ;
     padding:2px;
     box-shadow: 0 0 30px gray;
@@ -66,7 +66,7 @@
    border:1px solid rgb(0 0 0 / 0.2);
    padding:0;
    background-color:#0F5189;
-   color:white;
+   color:var(--color);
  }
  aside h2{
    margin:1em ;
@@ -81,7 +81,7 @@
 
  aside img{
    width:200px;
-   height:auto;
+   height:var(--height);
    float:right;
    margin: 3em 5em;
 
@@ -89,7 +89,7 @@
 
  main img{
    width:150px;
-   height:auto;
+   height:var(--height);
  }
 
  footer{
