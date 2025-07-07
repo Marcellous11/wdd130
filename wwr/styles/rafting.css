@@ -68,9 +68,15 @@ article {
     top:275px;
     width: 100%;
     background-color: var(--accent2-color);
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
 }
+
+
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 170px;
+    box-sizing: border-box;
 }
