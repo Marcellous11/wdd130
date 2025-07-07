@@ -54,9 +54,10 @@ nav a img {
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
 }
 
-h1 {
+.hero h1 {
 position: absolute;
 top: 20px;
 width: 100%;
