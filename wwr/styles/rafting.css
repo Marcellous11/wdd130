@@ -38,6 +38,10 @@ nav,p,section,article {
     padding:8px;
 }
 
+nav a img {
+    width: 30px;
+}
+
 .socialmedia a {
     text-decoration:none;
 }
