@@ -38,8 +38,23 @@ nav,p,section,article {
     padding:8px;
 }
 
-nav a img {
-    width: 30px;
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header img{
+    margin: 15px auto ;   
+    width: 150px; 
+}
+
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .socialmedia a {
@@ -86,3 +101,46 @@ article {
     width: 170px;
     box-sizing: border-box;
 }
+
+.section-1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.section-1 h2 {
+    grid-column: 1/4;
+    justify-self: center;
+
+}
+
+.section-1 img{
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+}
+
+.section-2 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.section-2 h2{
+    grid-column: 1/6;
+    justify-self: center;
+    align-self: center;
+}
+
+.section-2 img {
+    width: 150px;
+    margin: 15px 5px;
+}
+
+nav a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
