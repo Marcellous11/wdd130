@@ -20,7 +20,7 @@ header{
 
 body{
     font-family:var(--body-font);
-    color:var(--accent1-color);
+    color:var(--accent2-color);
 }
 
 header,main,footer{
@@ -30,7 +30,7 @@ header,main,footer{
 
 h1,h2{
     font-family:var(--heading-font);
-    color:var(--primary-color);
+    color:var(--secondary-color);
 }
 
 nav,p,section,article {
@@ -41,6 +41,7 @@ nav,p,section,article {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 150px;
 }
 
 header img{
@@ -53,8 +54,17 @@ header img{
 header nav {
     display: flex;
     justify-content: space-around;
+    align-self: center;
     align-items: center;
+    border-radius: 10px;
+    background-color:var(--secondary-color);
+    height: 50px;
     
+}
+
+header nav a {
+    text-decoration: none;
+    color:  white;
 }
 
 .socialmedia a {
@@ -78,20 +88,24 @@ top: 20px;
 width: 100%;
 padding: 16px;
 text-align: center;
-opacity: 0.7;
 background-color: var(--accent1-color);
 color: white;
 }
 
 article {
     position: absolute;
-    top:400px;
-    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    top:350px;
+    right: 80px;
+    width: 80%;
+    margin: auto;
     background-color: var(--accent2-color);
     box-sizing: border-box;
     margin: 0;
     color: white;
-    opacity: 0.9;
+
 }
 
 
@@ -105,6 +119,7 @@ article {
 .section-1 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+
 }
 .section-1 h2 {
     grid-column: 1/4;
@@ -141,6 +156,10 @@ nav a img {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+}
+
+footer p {
+    margin-right: 100px;
 }
 
