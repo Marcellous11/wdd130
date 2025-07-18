@@ -71,7 +71,7 @@ input, slelct, textarea{
 
 input[type="checkbox"]{
     width: 15px;
-    height: none;
+    height: 15px;
     vertical-align: bottom;
 }
 
