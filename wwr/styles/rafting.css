@@ -278,6 +278,16 @@ label[for="newsletter"]{
 
 button{
     justify-self: center;
+    color:black;
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background-color: white;
+    color: var(--secondary-color);
 }
 
 iframe{
@@ -318,6 +328,8 @@ iframe{
     grid-column: 1/span 3;
     justify-self: center;
     margin-top: 15px;
+    font-weight: 600;
+    font-size: 19px;
 }
 
 .staff-div img{
